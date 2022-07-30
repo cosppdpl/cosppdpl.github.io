@@ -36,7 +36,46 @@
     <link rel="stylesheet" href="css/aos.css">
 
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        .tools {
+          width: 33%;
+          display:block;
+          margin: 0 auto;
+          list-style-type: none;
+          float:left;
+          overflow:hidden;
+          text-align:center;     
+
+      }
+
+      .coding,  .technolgoies {
+          width:33%;
+          display:block;
+          margin: 0 auto;
+          list-style-type: none;
+          float:left;
+          overflow:hidden;
+          text-align:center;     
+
+      }
+
+      .coding >p, .technolgoies >p, .tools >p {
+        font-weight: bold
+      }
+      .coding ul, .tools ul, .technolgoies ul {   
+          list-style-type: none;   
+          text-align:center; 
+          align-items: center;    
+          padding-left: 0;
+      }
     
+
+      .coding li, .tools li, .technolgoies li {
+          padding-right: 2px;
+          padding-bottom: 2px;
+          
+      }
+    </style>
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
   
@@ -65,18 +104,8 @@
 
       <div class="container-fluid  ml-0 mr-0">
         <div class="row  ml-0 mr-0 align-items-center justify-content-center">
-
-          <div class="col-6 col-xs-7 col-md-6 col-lg-5 c col-xl-2 text-left pl-0 pr-0  ">
-            <h1 class="mb-0 ml-0 mr-0 site-logo">
-              <a href="http://campus.pub.ro/" class="h2 mb-0">
-                <div class="w-50 h-50">
-                   <img src="images/logo.png" alt="Image" class="img-fluid">
-                  </div>
-              </a>
-            </h1>
-          </div>
-
-          <div class="col-6 col-xs-5 col-md-6 col-lg-7 col-xl-10 d-none d-xl-block text-right">
+                 
+          <div class=" col-md-push-6 col-xl-push-6 col-lg-push-6 col-6 col-xs-5 col-md-6 col-lg-7 col-xl-10 d-none d-xl-block text-right">
             <nav class="site-navigation position-relative text-right" role="navigation">
 
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block text-right mt-2">
@@ -106,15 +135,15 @@
                   <div class="col-sm">
                     <div class="row align-items-center justify-content-center no-gutters">
                       <div class="col-4 col-sm-5 col-md-4 col-lg-3 col-xl-3">
-                        <img src="images/profile.jpg" alt="Image" class="img-fluid rounded-circle ">
+                        <img src="images/profile2.jpg" alt="Image" class="img-fluid rounded-circle ">
                       </div>
                     </div>
 
                    <div class="row align-items-center justify-content-center no-gutters">
                       <div class="col-12 col-sm-12 col-md-12 col-xl-5 col-md-6 com-lg-6">
                         <h2 class="text font-weight-bold" style="color:white" data-aos="fade-up">Cosmin Papadopol</h2>
-                          <p class="mb-4 desc small"   data-aos="fade-up" data-aos-delay="100">PhD. Student</p>
-                          <p class="mb-5 desc " data-aos="fade-up" data-aos-delay="100">JIRA Developer @ Metro Systems Romania</p>
+                          <p class="mb-4 desc small"   data-aos="fade-up" data-aos-delay="100"></p>
+                          <p class="mb-5 desc " data-aos="fade-up" data-aos-delay="100">JIRA Admin and Developer @ 8x8 Research and Innovation</p>
                       <div data-aos="fade-up" data-aos-delay="100">
                         <a href="#contact-section" class="btn smoothscroll btn-primary mr-2 mb-2">Get In Touch</a>
                       </div>
@@ -151,23 +180,64 @@
               <p>During my academic path, I managed to touch many topics within fields like Machine Learning/Deep Learning.
                 One of the most interesting that I've approached is <i>Lip reading in video sequences</i> as the topic of my Bachelor's degree thesis.
                 Further on, by pursuing a specialized Master degree, I've extended my theoretical knowledge and hands-on experience and as a result I've elaborated my thesis around the topic of <i>Generation of real artificial images via GANs</i>.
-                To further develop my set of skills and follow my interests, I am currently engaged in a PhD programme, coordinated by Bogdan Ionescu, with the main topic for the research being content generation via GANs.
-                 My research interests are, but not limited to:</p>
-                <!-- Also, I am an active part of a research team, Multimedia Lab@Campus.-->
             </div>
-            <div class="mb-4">
-              <ul class="list-unstyled ul-check success">
-                <li>Generative Adversarial Networks</li>
-                <li>Deep Neural Networks</li>
-                <li>Database augmentation</li>
-                <li>Object classification</li>
-              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="site-section cta-big-image" id="technical-section">
+      <div class="container">
+        <div class="row mb-2">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3">Technical skills</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-7 mb-5 align-items-center justify-content-center d-block m-auto" data-aos="fade-up" data-aos-delay="">
+            <figure class="bg-transparent ">
+              <img src="images/brain.jpg" alt="Image" class="img-fluid rounded-circle">
+            </figure>
+          </div>
+          <div class="col-lg-9 ml-auto" data-aos="fade-up" data-aos-delay="100">
+          
+            <div class ="tools">
+              <p>Tools (Tool name – scope)</p>
+                <ul class ="">
+                  <li>JIRA - Administrator & Developer</li>
+                  <li>Confluence – Administrator</li>
+                  <li>Jenkins – Developer</li>
+                </ul> 
+            </div>  
+            <div class="coding">
+              <p>Coding</p>
+              <ul class="">
+                <li>Python</li>
+                <li>Groovy</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>JavaScript</li>
+
+              </ul> 
+            </div>
+
+          <div class="technolgoies">
+              <p>Technolgoies</p>
+              <ul class="">
+                <li>Git</li>
+                <li>Terraform</li>
+                <li>Springboot</li>
+                <li>Oracle Cloud Infrastructre</li>
+                <li>Amazon Web Services</li>
+              </ul> 
+            </div>
 
             </div>
           </div>
         </div>
       </div>
     </div>
+
 
     <div class="site-section cta-big-image" id="education-section">
       <div class="container">
@@ -204,14 +274,6 @@
                     <br><br> Thesis: <br> <i>Traffic scene generation via Generative Adversarial Networks</i>
                     </span>
                 </li>
-                <li class="progress-step is-progress-10">
-                  <span class="progress-marker">c</span>
-                   <span class="progress-text">
-                      <h4 class="progress-title"> 2020 - Present</h4>
-                    <b> Doctor's Degree - Generating Realistic Looking Sceneries for Data Augmentation via Generative Adversarial Networks </b> <br>
-                    University Politehnica of Bucharest - Faculty of Electronics Telecommunications and Information Tehnology
-                    </span>
-                </li>
 
              </ul>
               
@@ -222,6 +284,40 @@
           </div>
         </div>
       </div>  
+    </div>
+
+    <div class="site-section cta-big-image" id="about-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-12 text-center" data-aos="fade">
+            <h2 class="section-title mb-3">Projects</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-7 mb-5 align-items-center justify-content-center d-block m-auto" data-aos="fade-up" data-aos-delay="">
+            <figure class="bg-transparent ">
+              <img src="images/proejcts.jpg" alt="Image" class="img-fluid rounded-circle">
+            </figure>
+          </div>
+          <div class="col-lg-8 ml-auto" data-aos="fade-up" data-aos-delay="100">
+            <div class="mb-4">
+              <p> <b>Project 1.</b> Got directly engaged in the migration process of a Jira Data Center from one cloud provider to another. While migrating from AWS to OCI, I gained knowledge
+                in numerous areas, such as Terraform, OCI CLI and SDK. With those technologies, an autoscaling group was created, where a custom image is used to provision as many nodes as required based on specific metrics. 
+                Another benefit of this configuration is the simplified upgrade process in the future.
+                I led the process of performing load tests and benchmarks in order to determine the best number of resources allocated (CPU, RAM, Database, NFS). As a last step, with numerous integrations 
+                already in place, I had to make sure that the networking side was correctly set up, before the migration started. 
+                  </p>
+              <p> <b>Project 2.</b> My main goals were to fulfill tasks that target the improvement of the business process that the Jira instance is used for. In order to complete these tasks, 
+                I am handling multiple existing add-ons such as JMWE, ScriptRunner, Elements Connect and Copy&Sync. Besides this, I am developing custom add-ons that are tailored for the client’s 
+                need or bring value to our product. I am also responsible with the implementation of automatic testing for the JIRA instance via Selenium and Unit testing framework. To achieve this,
+                 I had to learn new programming languages and combine them with my existing programming skills in order to develop new reliable solutions.
+                  Along with developing tasks, I am constantly maintaining previously developed features and handling administration tasks. Software tools used: VS Code, IntelliJ IDEA, Postman, pgAdmin, 
+                  GitLab, Jenkins. Programming languages used: Python, Groovy, Java, JavaScript, SQL.
+                  </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <section class="site-section bg-light" id="contact-section" data-aos="fade">
